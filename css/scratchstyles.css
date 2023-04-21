@@ -1,0 +1,120 @@
+/* Global */
+.common {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    height: 100px;
+    background-color: black;
+    color: white;
+    line-height: 100px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Main Body */
+  .mainbody {
+    background-color: whitesmoke;
+  }
+  
+  /* Footer */
+  .footer {
+    height: 25px;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(251, 251, 251);
+    position: fixed;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    padding-top: 15px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Images */
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  nav a {
+    float: left;
+    color: black;
+    padding: 10px 13px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    background-color: aliceblue;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  ol {
+    text-align: left;
+  }
+  
+  ul {
+    text-align: left;
+    list-style: disc;
+    margin-left: 30px;
+  }
+  
+  #viz1682019267034 {
+    margin: 0 auto;
+  }
+  
+
+  .emphasizedText{font-style: italic; color: rgb(174, 71, 71);}
+
+
+
+
+  .right-div {
+    float: right;
+    width: 200px;
+    margin-left: 20px;
+  }
+  
+  .right-div p {
+    margin: 0;
+  }
+  
+  .left-div {
+    width: 50%; 
+    margin: 0 auto; 
+    font-style: italic;
+    text-align: center; 
+  }
+  
+  .left-div h2 {
+    margin-top: 0;
+  }
+  
+  .left-div ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block; 
+    text-align: left;
+  }
+  
+  .left-div li {
+    margin-bottom: 5px;
+  }
+  
